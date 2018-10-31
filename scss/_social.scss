@@ -1,0 +1,47 @@
+#social{
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 2rem 0 3rem 0;
+    }
+
+    li {
+        display: inline-block;
+        margin-right: 3rem;
+        &:last-child{
+            margin-right: 0;
+        }
+    }
+}
+
+.social-link{
+    display: inline-block;
+    text-decoration: none;
+    color: $link;
+    transition: color 500ms ease;
+    &:hover, &:focus{
+        transition: color 500ms ease;
+    }
+}
+
+.facebook{
+    &:hover, &:focus{
+        color: $facebook;
+    }
+}
+
+.twitter{
+    &:hover, &:focus{
+        color: $twitter;
+    }
+}
+
+.linkedin{
+    &:hover, &:focus{
+        color: $linkedin;
+    }
+}
+
+.icons{
+    font-size: 1.5rem;
+}

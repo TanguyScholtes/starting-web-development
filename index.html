@@ -7,7 +7,7 @@
     <meta name="description" content="Mockup Integration, 8th & final exercise of html & css exercises of 'La prairie', part of BeCode studentship">
     <meta name="author" content="Tanguy Scholtes">
 
-    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Montserrat:400,700">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Montserrat:400,700,800">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
 
@@ -18,7 +18,59 @@
     <!--[if lt IE 7]>
         <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
-    <h1>Hello</h1>
+    <section id="about" class="section">
+        <img class="mugshot" src="images/Berners-Lee_Tim.jpg" alt="Photo de Tim Berners-Lee" />
+        <h1 class="title">Tim Berners-Lee</h1>
+        <h2 class="section-title">Inventor of HTML</h2>
+
+        <p class="justified">Tim Berners-Lee is the <strong class="strong">inventor</strong> of the Web. In 1989, Tim was working in a computing services section of CERN when he came up with the concept; at the time he had no idea that it would be implemented on such an <strong class="strong">enormous scale</strong>.</p>
+
+        <p class="button-wrapper">
+            <a class="button" href="https://fr.wikipedia.org/wiki/Tim_Berners-Lee">See for yourself</a>
+        </p>
+    </section>
+
+    <div id="social" class="section">
+        <ul>
+            <li>
+                <a class="social-link facebook" href="http://www.facebook.com">
+                    <span class="fab fa-facebook-f icons"></span><br />
+                    Facebook
+                </a>
+            </li>
+            <li>
+                <a class="social-link linkedin" href="http://www.linkedin.com">
+                    <span class="fab fa-linkedin-in icons"></span><br />
+                    Linkedin
+                </a>
+            </li>
+            <li>
+                <a class="social-link twitter" href="http://twitter.com">
+                    <span class="fab fa-twitter icons"></span><br />
+                    Twitter
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <section id="movies" class="section">
+        <h2 class="section-title">His favorite movies</h2>
+        <article class="movie">
+            <img class="movie-poster" src="images/space-odyssey.jpg" alt="Affiche de 2001&nbsp;-&nbsp;Space Odyssey" />
+            <h3 class="movie-title">2001&nbsp;-&nbsp;Space Odyssey</h3>
+            <p class="movie-synopsis justified">Humanity finds a mysterious, obviously artificial, object buried beneath the Lunar surface and, with the intelligent computer H.A.L.&nbsp;9000, sets off on a quest.</p>
+        </article>
+        <article class="movie">
+            <img class="movie-poster" src="images/monsieur-hulot.jpg" alt="Affiche de Monsieur Hulot" />
+            <h3 class="movie-title">Monsieur Hulot</h3>
+            <p class="movie-synopsis justified">Monsieur Hulot comes to a beachside hotel for a vacation, where he accidentally (but good-naturedly) causes havoc.</p>
+        </article>
+        <article class="movie">
+            <img class="movie-poster" src="images/alien.jpg" alt="Affiche de Alien" />
+            <h3 class="movie-title">Alien</h3>
+            <p class="movie-synopsis justified">The commercial vessel Nostromo receives a distress call from an unexplored planet. After searchig for survivors, the crew heads home only to realize that a deadly bioform has joined them.</p>
+        </article>
+    </section>
 
 </body>
 </html>

@@ -1,3 +1,6 @@
+/*------- External Imports -------*/
+@import "normalize";
+
 /*------- Variables -------*/
 @import "variables";
 
@@ -8,21 +11,22 @@
 @import "fonts";
 
 /* ------- General Styles -------*/
+*{
+    //box-sizing: border-box;
+}
+
 body{
     font-size: $base-text-size;
     font-family: 'Open Sans', sans-serif;
+    color: $text;
+    background-color: $background-dark;
+    line-height: 1.5rem;
 }
 
-h1, h1, h3, h4, h5, h6{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
+h1, h2, h3{
+    margin: 2rem 0;
 }
 
-a{
-    color: $link;
-    transition: color 500ms ease;
-    &:hover, &:focus{
-        color: $link-hover;
-        transition: color 500ms ease;
-    }
-}
+@import "about";
+@import "social";
+@import "movies";

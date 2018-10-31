@@ -1,0 +1,20 @@
+#movies{
+    padding: 2rem;
+    font-size: 0.9rem;
+    .section-title{
+        font-weight: 700;
+    }
+}
+
+.movie{
+    margin: 4rem 0;
+    &:last-child{
+        margin-bottom: 0;
+    }
+}
+
+.movie-poster{
+    width: 80px;
+    float: left;
+    margin: 0 1.25rem 1.25rem 0;
+}
